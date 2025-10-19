@@ -1,0 +1,34 @@
+uname -a
+Linux drake21-Inspiron-7577 6.14.0-33-generic #33~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep 19 17:02:30 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+
+ls -lah /home
+total 32K
+drwxr-xr-x  5 drake21 drake21 4.0K Oct 14 21:05 .
+drwxr-xr-x 23 root    root    4.0K Oct 13 20:17 ..
+drwxr-xr-x  3 drake21 drake21 4.0K Oct 14 21:07 CPP
+drwxr-x--- 23 drake21 drake21 4.0K Oct 19 22:24 drake21
+lrwxrwxrwx  1 drake21 drake21    8 Oct 14 21:05 hdd -> /mnt/hdd
+drwx------  2 drake21 drake21  16K Oct 13 20:10 lost+found
+
+whoami
+drake21
+
+uptime
+ 22:26:43 up 48 min,  1 user,  load average: 0.19, 0.46, 0.34
+
+df -h
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.6G  2.5M  1.6G   1% /run
+/dev/nvme0n1p1  468G   12G  433G   3% /
+tmpfs           7.8G   25M  7.8G   1% /dev/shm
+tmpfs           5.0M   12K  5.0M   1% /run/lock
+efivarfs        384K  264K  116K  70% /sys/firmware/efi/efivars
+/dev/nvme0n1p2  1.1G  6.2M  1.1G   1% /boot/efi
+/dev/sda1       916G  7.9G  862G   1% /home
+tmpfs           1.6G  120K  1.6G   1% /run/user/1000
+
+free -h
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       2.6Gi        11Gi       859Mi       2.8Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+

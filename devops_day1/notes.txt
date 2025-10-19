@@ -1,0 +1,1 @@
+I have learnt today a lot of commands: pwd, ls -l, cd, mkdir, rm -rf, touch, cp, mv, cat, less, head, tail, grep, chmod, chown, sudo etc.
