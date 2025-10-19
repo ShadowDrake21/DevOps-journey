@@ -2,3 +2,6 @@ I have begun my Linux journey from https://www.youtube.com/watch?v=oxuRxtrO2Ag.
 Next:
 - https://linuxjourney.com/ - interactive exercises on shell;
 - https://overthewire.org/wargames/bandit/ - Bandit Levels 0–3.
+I have read:
+- https://blog.kubesimplify.com/linux-system-directories-explained - about Linux folder structure;
+- https://www.geeksforgeeks.org/linux-unix/absolute-relative-pathnames-unix/ - about absolute and relative paths in Linux
