@@ -5,3 +5,16 @@ Next:
 I have read:
 - https://blog.kubesimplify.com/linux-system-directories-explained - about Linux folder structure;
 - https://www.geeksforgeeks.org/linux-unix/absolute-relative-pathnames-unix/ - about absolute and relative paths in Linux
+I have done these practical tasks:
+-Create a file named notes.txt and edit it using nano or vim.
+Write down the 5 commands you learned today.
+- Create a mini-project: “System Explorer”
+Create a folder called devops_day1.
+Create a file called report.txt and enter:
+-- system info (uname -a)
+-- list of files in /home (ls -lah /home)
+-- current user (whoami)
+-- uptime (uptime)
+-- amount of free space (df -h)
+-- amount of RAM (free -h).
+Save the result in the GitHub repository
