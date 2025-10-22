@@ -1,0 +1,64 @@
+06d5828b69a3e6ea4a8bda45aa1da92c71d05e3d
+0bc34b6d0d236a457c4219b1b642f6368f08ed3a
+1929ed77acb8b88eedbfdf6322a81980ae5e20a8
+2e878337cd2a0835f35b0051a7a90eb232567143
+4f0817a226970699812b7fcb23024ed067aaf84a
+52aab2262513c2b505cb7bf4b951ff0a500a3702
+59dedead3c9ba0ab7ff5707b3f676bb312c978cb
+80096b2de5767eb1828e7e73965a8ef0a8d0441c
+8e93cd659f56ef1f66bff7e1ab8ba864322defb6
+9c6a93734d244b0d61153121dc7a9736e634b5ac
+c4e0818a29096eefc21660cfa4bc0ee57f1310b0
+e97ce1e6d815a658f2f0c4dfbd3e576ab49ada9d
+01c72ae7b7b3d5b61d22329c8456806bf0481c20 
+1d06e919235bc197289fe22effd161ea2a9ff346 
+2630ef76aeb4c7275d6ff0cb7769d2543ebdcd15 
+27effe40a58ca47499267dffc96740bb06076093 
+2ee51cd4e9bd0c461aa071cbcf0990270a8f2c03 
+4009a2ac6964d6892eac22624e00eb13d78fecb2 
+65f5b9c8c459b128cfda1535d0bc015b98e65e2f 
+71d15b19b27f5a6172ac724cb9078dfbafeb9074 
+8c8e955e4bd8bf375411c1ae7ed678b59cc33abd 
+d07128db95b06c4ab820121ffd3b9e6fcf69c5ab 
+fe51cd30c0482bac6c0153bc16d6831cd9b2c1fe 
+ff788495b82567a1edc452e068497f3472c3bf44 
+b9c061a390e47186c9d0f592d28793d6df7406bc Bash scripting & automation basics
+1591c30e91a6c413dc304c8cff7a494a11fd7a84 Day 1 - Introduction to Linux
+605aa9ee33da9ff419203a49278ac6c3c27e8aee Day 1 - Introduction to Linux
+98b7ec03db7ebe641d88ca000f1047dbed558f19 Day 1 - Introduction to Linux
+bfd19a5539b3d84470e577c4d7f75c664b3b62ae Day 1 - Introduction to Linux
+27ed7b11b0f8ebc58c2cf2ffff59912baa4cab23 Day 2 - Bash & automation
+51a047e0c46145be98a6baa10ebe527cf779e89a Day 2 - Bash & automation
+2f58826ced3915978bac2d7590c015756e36c0b7 Day 2 - Bash scripting & automation basics
+379d15ca2f27abd6d7a20a90d74a56584c878995 Day 2 - Bash scripting & automation basics
+692bd5ad3a700c0e2dace0c7ed36d78ea091b57a Day 2 - Bash scripting & automation basics
+6c5a69130d94705a8abf1e41555acaca9e197a8f Day 2 - Bash scripting & automation basics/analyze-number.sh
+7875e82b371dca671718e83bf70f700a7f4344d4 Day 2 - Bash scripting & automation basics/.analyze-number.sh.swp
+b86513350623e7c04a5cd68af0ffded43d904e5a Day 2 - Bash scripting & automation basics/backup_2025-10-22
+251feda3c31b95f369715a11c8cd9b0d3ce2ef51 Day 2 - Bash scripting & automation basics/backup_2025-10-22/devops_day1
+955e0a64d6fb6b5d80689609f0de6a8fb3c34f2a Day 2 - Bash scripting & automation basics/backup_2025-10-22/devops_day1/notes.txt
+6d8bce7714629c20617f8ea3eeb716bc01203abb Day 2 - Bash scripting & automation basics/backup_2025-10-22/devops_day1/report.txt
+0506902cd20073b3024294f5689c91fd08f7b3b2 Day 2 - Bash scripting & automation basics/backup_2025-10-22.tar.gz
+f2085e1be7c4f9bc1755df18e1280b3785d38862 Day 2 - Bash scripting & automation basics/backup.sh
+fa50e234b9efb06d6d3106d2992ece66c31c2cf4 Day 2 - Bash scripting & automation basics/case.sh
+ff229e903e34be99f4bfdd607b799463f74eea07 Day 2 - Bash scripting & automation basics/check_disk.sh
+e3820ac9525899db375517b9e9d81f8685d3233e Day 2 - Bash scripting & automation basics/forloopex.sh
+b9d9b972be978dedf3ff33c4ae8ef6afb0402c64 Day 2 - Bash scripting & automation basics/for.sh
+0d786f5a8761c93ce953fafbf7c01586a7221df5 Day 2 - Bash scripting & automation basics/hello
+763885d25cd2766876f00259e3ae2f0ae923181a Day 2 - Bash scripting & automation basics/hello.sh
+557db03de997c86a4a028e1ebd3a1ceb225be238 Day 2 - Bash scripting & automation basics/hello/world.txt
+6654ea2ae13b199a63ce941706f0699c0a0fee56 Day 2 - Bash scripting & automation basics/myscript.sh
+3c9b39de827ba3a8465aed092d6b965a2cbf231d Day 2 - Bash scripting & automation basics/.myscript.sh.swo
+216c9f28d56572e29a31680a15abe5458017a4ad Day 2 - Bash scripting & automation basics/.myscript.sh.swp
+d43105c8ad9eb2aa27e5111d02b8e252089b6f41 Day 2 - Bash scripting & automation basics/name_input.sh
+d2464213f676789ac7c3145d3694dc7d682c88da Day 2 - Bash scripting & automation basics/new-1.txt
+e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 Day 2 - Bash scripting & automation basics/new-2.txt
+e1ebab29c59bf73c45abb2c6136128c9cf349f1a Day 2 - Bash scripting & automation basics/output.sh
+714b29664dc4a96df2d87ce62cb986db432e6b1b Day 2 - Bash scripting & automation basics/pers_greeting.sh
+0fb1e3f21eef02efd1f4c719b71795c97e011ec3 Day 2 - Bash scripting & automation basics/run_all.sh
+3fd79095faf561aea2d59f6bfdcc05931b9c020d Day 2 - Bash scripting & automation basics/.run_all.sh.swp
+e25fed7e9c53f7c06898a8073a38cc39217d7c51 Day 2 - Bash scripting & automation basics/sysinfo.log
+936a0cd65d43c4df141425a2270cbf71d91ce860 Day 2 - Bash scripting & automation basics/sysinfo.sh
+77bc65c91dfe4d8dff88494c2f0311a9fbcc01e9 Day 2 - Bash scripting & automation basics/viber.deb
+7428e33bd1ff3420144fc4c066238ec8596459e0 Day 2 - Bash scripting & automation basics/whileloop.sh
+eb6214baf992e26cb0f935fe9bda2310637614de README.md

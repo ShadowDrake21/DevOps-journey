@@ -1,0 +1,10 @@
+ls - a command for identifying the files and directories in the working directory;
+pwd - a command for printing the current working directory on the terminal;
+mkdir - a command for creating fresh directories in the terminal;
+cd - a command that is used to navigate between directories;
+rmdir - a command for permanently deleting an empty directory;
+cp - a command for copying files;
+mv - a command that is generally used for renaming the files in Linux;
+rm - a command for deleting files (for removing non-empty directories use -r);
+uname - a command for checking the complete OS information of the system;
+touch - a command that creates an empty file.
