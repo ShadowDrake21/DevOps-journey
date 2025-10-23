@@ -1,0 +1,11 @@
+I've started from watching Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git
+(https://www.youtube.com/watch?v=Uszj_k0DGsg).
+Next I've worked on:
+- https://www.atlassian.com/git/tutorials/using-branches;
+- https://www.atlassian.com/git/tutorials/using-branches/git-checkout.
+Next I have created a dummy branch "feature/auto-backup".
+The i created two small Bash scripts: 
+- auto_commit.sh - automates git pushes
+- daily_backup_git.sh – performs daily backup + git push;
+Next I've done Real-world simulation (using git commands and CI/CD things).
+Next I've created Git pre-commit hook.
