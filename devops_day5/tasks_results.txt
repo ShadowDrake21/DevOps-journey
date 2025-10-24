@@ -1,0 +1,151 @@
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps$ uptime
+ 22:46:31 up  3:39,  1 user,  load average: 0.65, 1.33, 1.78
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps$ cat /proc/loadavg
+0.51 1.27 1.75 2/1063 24854
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps$ free -h
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       5.2Gi       5.7Gi       1.1Gi       6.1Gi        10Gi
+Swap:          4.0Gi          0B       4.0Gi
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps$ vmstat 1 5
+procs -----------memory---------- ---swap-- -----io---- -system-- -------cpu-------
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st gu
+ 0  0      0 6122820 273556 6103436    0    0   214   238 4869    7 12  3 84  1  0  0
+ 0  0      0 6142252 273556 6104216    0    0     0     0 1942  847  8  0 92  0  0  0
+ 0  0      0 6152684 273556 6102712    0    0     0     0 1866 1794  2  1 98  0  0  0
+ 2  1      0 6168580 273564 6105312    0    0     0    52 1906 2079  2  1 94  2  0  0
+ 0  0      0 6192816 273564 6110316    0    0     0     0 2351 2463  3  2 95  0  0  0
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.6G  2.6M  1.6G   1% /run
+/dev/nvme0n1p1  468G   15G  430G   4% /
+tmpfs           7.8G  125M  7.7G   2% /dev/shm
+tmpfs           5.0M   12K  5.0M   1% /run/lock
+efivarfs        384K  339K   41K  90% /sys/firmware/efi/efivars
+/dev/nvme0n1p2  1.1G  6.2M  1.1G   1% /boot/efi
+/dev/sda1       916G  8.9G  861G   2% /home
+tmpfs           1.6G  144K  1.6G   1% /run/user/1000
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps$ df 
+Filesystem     1K-blocks     Used Available Use% Mounted on
+tmpfs            1623636     2612   1621024   1% /run
+/dev/nvme0n1p1 490048472 14842580 450239288   4% /
+tmpfs            8118164   127484   7990680   2% /dev/shm
+tmpfs               5120       12      5108   1% /run/lock
+efivarfs             384      339        41  90% /sys/firmware/efi/efivars
+/dev/nvme0n1p2   1098632     6288   1092344   1% /boot/efi
+/dev/sda1      960301072  9304088 902142612   2% /home
+tmpfs            1623632      144   1623488   1% /run/user/1000
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps$ du -sh ~/*
+32K	/home/drake21/Desktop
+304K	/home/drake21/Documents
+636M	/home/drake21/Downloads
+4.0K	/home/drake21/Music
+4.0K	/home/drake21/Pictures
+4.0K	/home/drake21/Public
+2.7G	/home/drake21/snap
+4.0K	/home/drake21/Templates
+4.0K	/home/drake21/Videos
+270M	/home/drake21/vim
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps$ tail -n 20 /var/log/syslog
+2025-10-24T22:47:06.189290+02:00 drake21-Inspiron-7577 wpa_supplicant[1514]: wlp60s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-61 noise=9999 txrate=130000
+2025-10-24T22:47:59.289169+02:00 drake21-Inspiron-7577 kernel: pcieport 0000:00:1c.5: AER: Multiple Correctable error message received from 0000:3c:00.0
+2025-10-24T22:47:59.289189+02:00 drake21-Inspiron-7577 kernel: iwlwifi 0000:3c:00.0: PCIe Bus Error: severity=Correctable, type=Data Link Layer, (Receiver ID)
+2025-10-24T22:47:59.289191+02:00 drake21-Inspiron-7577 kernel: iwlwifi 0000:3c:00.0:   device [8086:24fd] error status/mask=00000040/00002000
+2025-10-24T22:47:59.289191+02:00 drake21-Inspiron-7577 kernel: iwlwifi 0000:3c:00.0:    [ 6] BadTLP                
+2025-10-24T22:48:04.184174+02:00 drake21-Inspiron-7577 kernel: pcieport 0000:00:1c.5: AER: Correctable error message received from 0000:3c:00.0
+2025-10-24T22:48:04.184189+02:00 drake21-Inspiron-7577 kernel: iwlwifi 0000:3c:00.0: PCIe Bus Error: severity=Correctable, type=Data Link Layer, (Receiver ID)
+2025-10-24T22:48:04.184190+02:00 drake21-Inspiron-7577 kernel: iwlwifi 0000:3c:00.0:   device [8086:24fd] error status/mask=00000040/00002000
+2025-10-24T22:48:04.184191+02:00 drake21-Inspiron-7577 kernel: iwlwifi 0000:3c:00.0:    [ 6] BadTLP                
+2025-10-24T22:49:06.289316+02:00 drake21-Inspiron-7577 kernel: pcieport 0000:00:1c.5: AER: Correctable error message received from 0000:3c:00.0
+2025-10-24T22:49:06.289341+02:00 drake21-Inspiron-7577 kernel: iwlwifi 0000:3c:00.0: PCIe Bus Error: severity=Correctable, type=Data Link Layer, (Receiver ID)
+2025-10-24T22:49:06.289344+02:00 drake21-Inspiron-7577 kernel: iwlwifi 0000:3c:00.0:   device [8086:24fd] error status/mask=00000040/00002000
+2025-10-24T22:49:06.289345+02:00 drake21-Inspiron-7577 kernel: iwlwifi 0000:3c:00.0:    [ 6] BadTLP                
+2025-10-24T22:49:27.354952+02:00 drake21-Inspiron-7577 wpa_supplicant[1514]: wlp60s0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-68 noise=9999 txrate=144400
+2025-10-24T22:49:33.394700+02:00 drake21-Inspiron-7577 wpa_supplicant[1514]: wlp60s0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-58 noise=9999 txrate=144400
+2025-10-24T22:49:48.190521+02:00 drake21-Inspiron-7577 wpa_supplicant[1514]: wlp60s0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-61 noise=9999 txrate=130000
+2025-10-24T22:50:01.241794+02:00 drake21-Inspiron-7577 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2025-10-24T22:50:01.260314+02:00 drake21-Inspiron-7577 systemd[1]: sysstat-collect.service: Deactivated successfully.
+2025-10-24T22:50:01.260907+02:00 drake21-Inspiron-7577 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2025-10-24T22:50:24.479251+02:00 drake21-Inspiron-7577 kernel: workqueue: delayed_fput hogged CPU for >10000us 259 times, consider switching to WQ_UNBOUND
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps$ journalctl -xe
+Oct 24 22:47:03 drake21-Inspiron-7577 kernel: iwlwifi 0000:3c:00.0: PCIe Bus Error: severi>
+Oct 24 22:47:03 drake21-Inspiron-7577 kernel: iwlwifi 0000:3c:00.0:   device [8086:24fd] e>
+Oct 24 22:47:03 drake21-Inspiron-7577 kernel: iwlwifi 0000:3c:00.0:    [ 6] BadTLP        >
+Oct 24 22:47:06 drake21-Inspiron-7577 wpa_supplicant[1514]: wlp60s0: CTRL-EVENT-SIGNAL-CHA>
+Oct 24 22:47:59 drake21-Inspiron-7577 kernel: pcieport 0000:00:1c.5: AER: Multiple Correct>
+Oct 24 22:47:59 drake21-Inspiron-7577 kernel: iwlwifi 0000:3c:00.0: PCIe Bus Error: severi>
+Oct 24 22:47:59 drake21-Inspiron-7577 kernel: iwlwifi 0000:3c:00.0:   device [8086:24fd] e>
+Oct 24 22:47:59 drake21-Inspiron-7577 kernel: iwlwifi 0000:3c:00.0:    [ 6] BadTLP        >
+Oct 24 22:48:04 drake21-Inspiron-7577 kernel: pcieport 0000:00:1c.5: AER: Correctable erro>
+Oct 24 22:48:04 drake21-Inspiron-7577 kernel: iwlwifi 0000:3c:00.0: PCIe Bus Error: severi>
+Oct 24 22:48:04 drake21-Inspiron-7577 kernel: iwlwifi 0000:3c:00.0:   device [8086:24fd] e>
+Oct 24 22:48:04 drake21-Inspiron-7577 kernel: iwlwifi 0000:3c:00.0:    [ 6] BadTLP        >
+Oct 24 22:49:06 drake21-Inspiron-7577 kernel: pcieport 0000:00:1c.5: AER: Correctable erro>
+Oct 24 22:49:06 drake21-Inspiron-7577 kernel: iwlwifi 0000:3c:00.0: PCIe Bus Error: severi>
+Oct 24 22:49:06 drake21-Inspiron-7577 kernel: iwlwifi 0000:3c:00.0:   device [8086:24fd] e>
+Oct 24 22:49:06 drake21-Inspiron-7577 kernel: iwlwifi 0000:3c:00.0:    [ 6] BadTLP        >
+Oct 24 22:49:27 drake21-Inspiron-7577 wpa_supplicant[1514]: wlp60s0: CTRL-EVENT-SIGNAL-CHA>
+Oct 24 22:49:33 drake21-Inspiron-7577 wpa_supplicant[1514]: wlp60s0: CTRL-EVENT-SIGNAL-CHA>
+Oct 24 22:49:48 drake21-Inspiron-7577 wpa_supplicant[1514]: wlp60s0: CTRL-EVENT-SIGNAL-CHA>
+Oct 24 22:50:01 drake21-Inspiron-7577 systemd[1]: Starting sysstat-collect.service - syste>
+░░ Subject: A start job for unit sysstat-collect.service has begun execution
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit sysstat-collect.service has begun execution.
+░░ 
+░░ The job identifier is 10132.
+Oct 24 22:50:01 drake21-Inspiron-7577 systemd[1]: sysstat-collect.service: Deactivated suc>
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ The unit sysstat-collect.service has successfully entered the 'dead' state.
+Oct 24 22:50:01 drake21-Inspiron-7577 systemd[1]: Finished sysstat-collect.service - syste>
+░░ Subject: A start job for unit sysstat-collect.service has finished successfully
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit sysstat-collect.service has finished successfully.
+░░ 
+░░ The job identifier is 10132.
+Oct 24 22:50:24 drake21-Inspiron-7577 kernel: workqueue: delayed_fput hogged CPU for >1000>
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps$ 
+
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps$ ps -eo pid,comm,%cpu,%mem --sort=-%cpu | head -n 10
+    PID COMMAND         %CPU %MEM
+  25282 ps               100  0.0
+   4742 chrome          12.8  1.4
+   2919 gnome-shell     11.7  2.2
+  25265 chrome          11.4  1.3
+  15592 chrome          11.3  2.2
+   4480 chrome           7.1  2.7
+  15657 chrome           6.4  2.5
+  23342 chrome           3.6  1.6
+  14876 chrome           3.1  2.5
+
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps/devops_day5$ vim sys_monitor.sh
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps/devops_day5$ chmod +x sys_monitor.sh 
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps/devops_day5$ ./sys_monitor.sh 
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps/devops_day5$ cat ~/syslogs/system_$(date +%F).log
+==== 2025-10-24 23:08:41 ====
+Uptime:
+ 23:08:41 up  4:01,  1 user,  load average: 0.34, 0.50, 0.81
+
+Top 5 CPU-consuming processes:
+    PID COMMAND         %CPU %MEM
+  26059 chrome          30.9  1.4
+   4742 chrome          11.9  1.4
+   2919 gnome-shell     11.1  2.2
+  15592 chrome          10.2  2.3
+   4480 chrome           6.8  2.7
+
+Memory usage:
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       5.2Gi       5.7Gi       1.1Gi       6.1Gi        10Gi
+Swap:          4.0Gi          0B       4.0Gi
+
+Disk usage:
+/dev/nvme0n1p1  468G   15G  430G   4% /
+/dev/nvme0n1p2  1.1G  6.2M  1.1G   1% /boot/efi
+/dev/sda1       916G  8.9G  861G   2% /home
+
