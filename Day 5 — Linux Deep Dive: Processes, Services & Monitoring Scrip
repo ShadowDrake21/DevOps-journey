@@ -1,0 +1,11 @@
+I have begun from watching video materials:
+- KILL Linux processes!! (also manage them) // Linux for Hackers // EP 7 (https://www.youtube.com/watch?v=LfC6pv8VISk);
+- How Does Linux Boot Process Work? (https://www.youtube.com/watch?v=XpFsMB6FoOs);
+- Linux processes, init, fork/exec, ps, kill, fg, bg, jobs (https://www.youtube.com/watch?v=TJzltwv7jJs);
+- start, stop, restart Linux services (daemon HUNTING!!) // Linux for Hackers // EP 6 (https://www.youtube.com/watch?v=wOWhfNB_r-0&t=109s).
+
+The next I have had time for practice:
+- commands for practice (htop, ps, kill etc);
+- resource analysis (free -h   vmstat 1 5);
+- bash project: System Monitoring Script;
+- cron job and systemd service for the created script.
