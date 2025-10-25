@@ -3,3 +3,5 @@ In the beginning, I have reviewed core topics:
 - https://www.strongdm.com/blog/linux-file-permissions;
 - https://medium.com/@itsmepankaj/git-workflow-add-commit-push-pull-69adf44cf812;
 - https://medium.com/@promisevector/bash-scripting-variables-conditionals-and-looping-5100198da227.
+
+Next I have created a Bash automation challenge - a backup automation script for a local project directory
