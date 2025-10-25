@@ -1,0 +1,410 @@
+drake21@drake21-Inspiron-7577:/mnt/hdd/devops-backup$ cd ..
+drake21@drake21-Inspiron-7577:/mnt/hdd$ cd devops
+devops-backup/ devops_clone/  
+drake21@drake21-Inspiron-7577:/mnt/hdd$ cd DevOps/
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps$ cd d
+days_summaries/ devops_day3/    devops_day5/    
+devops_day1/    devops_day4/    devops_day6/    
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps$ cd devops_day6
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps/devops_day6$ ps aux
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0  23708 14368 ?        Ss   19:44   0:04 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    19:44   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    19:44   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-kvfree_rcu_re
+root           7  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-slub_flushwq]
+root           8  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-netns]
+root          10  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/0:0H-events_hig
+root          13  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-mm_percpu_wq]
+root          14  0.0  0.0      0     0 ?        I    19:44   0:00 [rcu_tasks_kthread]
+root          15  0.0  0.0      0     0 ?        I    19:44   0:00 [rcu_tasks_rude_kthread]
+root          16  0.0  0.0      0     0 ?        I    19:44   0:00 [rcu_tasks_trace_kthread
+root          17  0.0  0.0      0     0 ?        S    19:44   0:00 [ksoftirqd/0]
+root          18  0.0  0.0      0     0 ?        I    19:44   0:04 [rcu_preempt]
+root          19  0.0  0.0      0     0 ?        S    19:44   0:00 [rcu_exp_par_gp_kthread_
+root          20  0.0  0.0      0     0 ?        S    19:44   0:00 [rcu_exp_gp_kthread_work
+root          21  0.0  0.0      0     0 ?        S    19:44   0:00 [migration/0]
+root          22  0.0  0.0      0     0 ?        S    19:44   0:00 [idle_inject/0]
+root          23  0.0  0.0      0     0 ?        S    19:44   0:00 [cpuhp/0]
+root          24  0.0  0.0      0     0 ?        S    19:44   0:00 [cpuhp/1]
+root          25  0.0  0.0      0     0 ?        S    19:44   0:00 [idle_inject/1]
+root          26  0.0  0.0      0     0 ?        S    19:44   0:00 [migration/1]
+root          27  0.0  0.0      0     0 ?        S    19:44   0:00 [ksoftirqd/1]
+root          29  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/1:0H-events_hig
+root          30  0.0  0.0      0     0 ?        S    19:44   0:00 [cpuhp/2]
+root          31  0.0  0.0      0     0 ?        S    19:44   0:00 [idle_inject/2]
+root          32  0.0  0.0      0     0 ?        S    19:44   0:00 [migration/2]
+root          33  0.1  0.0      0     0 ?        S    19:44   0:08 [ksoftirqd/2]
+root          35  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/2:0H-events_hig
+root          36  0.0  0.0      0     0 ?        S    19:44   0:00 [cpuhp/3]
+root          37  0.0  0.0      0     0 ?        S    19:44   0:00 [idle_inject/3]
+root          38  0.0  0.0      0     0 ?        S    19:44   0:00 [migration/3]
+root          39  0.0  0.0      0     0 ?        S    19:44   0:00 [ksoftirqd/3]
+root          41  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/3:0H-events_hig
+root          42  0.0  0.0      0     0 ?        S    19:44   0:00 [cpuhp/4]
+root          43  0.0  0.0      0     0 ?        S    19:44   0:00 [idle_inject/4]
+root          44  0.0  0.0      0     0 ?        S    19:44   0:00 [migration/4]
+root          45  0.0  0.0      0     0 ?        R    19:44   0:00 [ksoftirqd/4]
+root          47  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/4:0H-events_hig
+root          48  0.0  0.0      0     0 ?        S    19:44   0:00 [cpuhp/5]
+root          49  0.0  0.0      0     0 ?        S    19:44   0:00 [idle_inject/5]
+root          50  0.0  0.0      0     0 ?        S    19:44   0:00 [migration/5]
+root          51  0.0  0.0      0     0 ?        S    19:44   0:00 [ksoftirqd/5]
+root          53  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/5:0H-events_hig
+root          54  0.0  0.0      0     0 ?        S    19:44   0:00 [cpuhp/6]
+root          55  0.0  0.0      0     0 ?        S    19:44   0:00 [idle_inject/6]
+root          56  0.0  0.0      0     0 ?        S    19:44   0:00 [migration/6]
+root          57  0.0  0.0      0     0 ?        S    19:44   0:00 [ksoftirqd/6]
+root          59  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/6:0H-events_hig
+root          60  0.0  0.0      0     0 ?        S    19:44   0:00 [cpuhp/7]
+root          61  0.0  0.0      0     0 ?        S    19:44   0:00 [idle_inject/7]
+root          62  0.0  0.0      0     0 ?        S    19:44   0:00 [migration/7]
+root          63  0.0  0.0      0     0 ?        S    19:44   0:00 [ksoftirqd/7]
+root          65  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/7:0H-events_hig
+root          66  0.0  0.0      0     0 ?        S    19:44   0:00 [kdevtmpfs]
+root          67  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-inet_frag_wq]
+root          68  0.0  0.0      0     0 ?        S    19:44   0:00 [kauditd]
+root          69  0.0  0.0      0     0 ?        S    19:44   0:00 [khungtaskd]
+root          71  0.0  0.0      0     0 ?        S    19:44   0:00 [oom_reaper]
+root          73  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-writeback]
+root          74  0.0  0.0      0     0 ?        S    19:44   0:00 [kcompactd0]
+root          75  0.0  0.0      0     0 ?        SN   19:44   0:00 [ksmd]
+root          76  0.0  0.0      0     0 ?        SN   19:44   0:00 [khugepaged]
+root          77  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-kintegrityd]
+root          78  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-kblockd]
+root          79  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-blkcg_punt_bi
+root          80  0.0  0.0      0     0 ?        I    19:44   0:02 [kworker/4:1-mm_percpu_w
+root          81  0.1  0.0      0     0 ?        S    19:44   0:09 [irq/9-acpi]
+root          84  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-tpm_dev_wq]
+root          85  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-ata_sff]
+root          86  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-md]
+root          87  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-md_bitmap]
+root          88  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-edac-poller]
+root          89  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-devfreq_wq]
+root          91  0.0  0.0      0     0 ?        S    19:44   0:00 [watchdogd]
+root          92  0.0  0.0      0     0 ?        I    19:44   0:02 [kworker/1:1-events]
+root          93  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/5:1H-i915_clean
+root          94  0.0  0.0      0     0 ?        S    19:44   0:00 [kswapd0]
+root          95  0.0  0.0      0     0 ?        S    19:44   0:00 [ecryptfs-kthread]
+root          96  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-kthrotld]
+root          97  0.0  0.0      0     0 ?        S    19:44   0:00 [irq/122-aerdrv]
+root          98  0.0  0.0      0     0 ?        S    19:44   0:00 [irq/123-aerdrv]
+root          99  0.0  0.0      0     0 ?        S    19:44   0:00 [irq/124-aerdrv]
+root         100  0.0  0.0      0     0 ?        S    19:44   0:00 [irq/125-aerdrv]
+root         101  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-acpi_thermal_
+root         103  0.0  0.0      0     0 ?        I    19:44   0:02 [kworker/u32:3-events_po
+root         105  0.0  0.0      0     0 ?        S    19:44   0:00 [hwrng]
+root         106  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-mld]
+root         107  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-ipv6_addrconf
+root         108  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/7:1H-i915_clean
+root         116  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-kstrp]
+root         131  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-charger_manag
+root         132  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/0:1H-kblockd]
+root         157  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/3:1H-kblockd]
+root         161  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/4:1H-i915_clean
+root         179  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/6:1H-kblockd]
+root         190  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/1:1H-kblockd]
+root         191  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/2:1H-kblockd]
+root         207  0.0  0.0      0     0 ?        S    19:44   0:00 [scsi_eh_0]
+root         209  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-scsi_tmf_0]
+root         215  0.0  0.0      0     0 ?        S    19:44   0:00 [scsi_eh_1]
+root         216  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-scsi_tmf_1]
+root         219  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-nvme-wq]
+root         220  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-nvme-reset-wq
+root         221  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-nvme-delete-w
+root         222  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-nvme-auth-wq]
+root         300  0.0  0.0      0     0 ?        S    19:44   0:00 [irq/51-DELL0802:00]
+root         326  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-USBC000:00-co
+root         346  0.0  0.0      0     0 ?        S    19:44   0:00 [jbd2/nvme0n1p1-8]
+root         347  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-ext4-rsv-conv
+root         397  0.0  0.1  67648 18100 ?        S<s  19:44   0:01 /usr/lib/systemd/systemd
+root         437  0.0  0.0  30852  8088 ?        Ss   19:44   0:00 /usr/lib/systemd/systemd
+root         487  0.0  0.0      0     0 ?        S    19:44   0:00 [psimon]
+root         531  0.0  0.0      0     0 ?        I    19:44   0:02 [kworker/u32:5-events_un
+root         705  0.0  0.0      0     0 ?        S    19:44   0:00 [irq/145-mei_me]
+root         741  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-cfg80211]
+root         789  0.0  0.0      0     0 ?        S    19:44   0:00 [jbd2/sda1-8]
+root         790  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-ext4-rsv-conv
+root         794  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-ttm]
+root         829  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-cryptd]
+root         831  0.1  0.0      0     0 ?        S    19:44   0:08 [irq/148-iwlwifi]
+root         882  0.0  0.0      0     0 ?        S    19:44   0:00 [card1-crtc0]
+root         891  0.0  0.0      0     0 ?        S    19:44   0:00 [card1-crtc1]
+root         892  0.0  0.0      0     0 ?        S    19:44   0:00 [card1-crtc2]
+systemd+     938  0.0  0.0  17560  7240 ?        Ss   19:44   0:03 /usr/lib/systemd/systemd
+systemd+     945  0.0  0.0  23152 13816 ?        Ss   19:44   0:02 /usr/lib/systemd/systemd
+systemd+     950  0.0  0.0  91048  7628 ?        Ssl  19:44   0:00 /usr/lib/systemd/systemd
+root         957  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-nvkm-disp]
+root         993  0.0  0.0      0     0 ?        I<   19:44   0:00 [kworker/R-ttm]
+root         994  0.0  0.0      0     0 ?        S    19:44   0:00 [card2-crtc0]
+root         995  0.0  0.0      0     0 ?        S    19:44   0:00 [card2-crtc1]
+root         996  0.0  0.0      0     0 ?        S    19:44   0:00 [card2-crtc2]
+root         997  0.0  0.0      0     0 ?        S    19:44   0:00 [card2-crtc3]
+avahi       1439  0.0  0.0   8752  4028 ?        Ss   19:44   0:00 avahi-daemon: running [d
+root        1440  0.0  0.0  13516  6620 ?        Ss   19:44   0:00 /usr/libexec/bluetooth/b
+message+    1441  0.0  0.0  12292  7096 ?        Ss   19:44   0:02 @dbus-daemon --system --
+gnome-r+    1444  0.0  0.1 365476 16388 ?        Ssl  19:44   0:00 /usr/libexec/gnome-remot
+polkitd     1447  0.0  0.0 391104 11692 ?        Ssl  19:44   0:01 /usr/lib/polkit-1/polkit
+root        1449  0.0  0.0 313508  7632 ?        Ssl  19:44   0:00 /usr/libexec/power-profi
+root        1464  0.1  0.2 2293292 41692 ?       Ssl  19:44   0:07 /snap/snapd/current/usr/
+root        1466  0.0  0.0 313292  7648 ?        Ssl  19:44   0:00 /usr/libexec/accounts-da
+root        1467  0.0  0.0   9424  2628 ?        Ss   19:44   0:00 /usr/sbin/cron -f -P
+root        1468  0.0  0.0 309720  6560 ?        Ssl  19:44   0:00 /usr/libexec/switcheroo-
+root        1482  0.0  0.0  18180  9040 ?        Ss   19:44   0:00 /usr/lib/systemd/systemd
+root        1483  0.3  0.0 424868 10932 ?        Ssl  19:44   0:21 /usr/sbin/thermald --sys
+root        1487  0.0  0.0 469988 14324 ?        Ssl  19:44   0:01 /usr/libexec/udisks2/udi
+avahi       1531  0.0  0.0   8480  1420 ?        S    19:44   0:00 avahi-daemon: chroot hel
+syslog      1537  0.0  0.0 222564  5616 ?        Ssl  19:44   0:00 /usr/sbin/rsyslogd -n -i
+root        1541  0.0  0.1 336408 18816 ?        Ssl  19:44   0:01 /usr/sbin/NetworkManager
+root        1550  0.0  0.0  18276 11100 ?        Ss   19:44   0:00 /usr/sbin/wpa_supplicant
+root        1629  0.0  0.0 392128 12248 ?        Ssl  19:44   0:00 /usr/sbin/ModemManager
+root        1722  0.0  0.0  38764 12220 ?        Ss   19:44   0:00 /usr/sbin/cupsd -l
+root        1724  0.0  0.0   2892  1524 ?        Ss   19:44   0:01 /bin/sh /snap/cups/1112/
+root        1727  0.0  0.0   2892  1596 ?        Ss   19:44   0:01 /bin/sh /snap/cups/1112/
+root        1731  0.0  0.1 112260 22796 ?        Ssl  19:44   0:00 /usr/bin/python3 /usr/sh
+lp          1748  0.0  0.0  16832  6840 ?        S    19:44   0:00 /usr/lib/cups/notifier/d
+root        1959  0.0  0.0  61276 12448 ?        S    19:44   0:00 cupsd -f -s /var/snap/cu
+root        1960  0.0  0.0 241608  9740 ?        Sl   19:44   0:00 cups-proxyd /var/snap/cu
+root        1963  0.0  0.0   2892   864 ?        S    19:44   0:00 /bin/sh /snap/cups/1112/
+cups-br+    1969  0.0  0.1 268468 19700 ?        Ssl  19:44   0:00 /usr/sbin/cups-browsed
+kernoops    1971  0.0  0.0  12744  2332 ?        Ss   19:44   0:00 /usr/sbin/kerneloops --t
+kernoops    1974  0.0  0.0  12744  2188 ?        Ss   19:44   0:00 /usr/sbin/kerneloops
+root        1985  0.0  0.0 314816  9044 ?        Ssl  19:44   0:00 /usr/sbin/gdm3
+root        1998  0.0  0.0      0     0 ?        S    19:44   0:00 [psimon]
+rtkit       2036  0.0  0.0  22940  3364 ?        SNsl 19:44   0:00 /usr/libexec/rtkit-daemo
+root        2128  0.0  0.0      0     0 ?        S<   19:44   0:00 [krfcommd]
+colord      2176  0.0  0.0 320196 14280 ?        Ssl  19:44   0:00 /usr/libexec/colord
+root        2224  0.0  0.0 318032 10100 ?        Ssl  19:44   0:03 /usr/libexec/upowerd
+root        2616  0.0  0.0      0     0 ?        I    19:50   0:01 [kworker/7:2-events]
+root        2624  0.0  0.0 242588 10472 ?        Sl   19:52   0:00 gdm-session-worker [pam/
+drake21     2636  0.0  0.0  21376 13308 ?        Ss   19:52   0:01 /usr/lib/systemd/systemd
+drake21     2640  0.0  0.0  21464  3660 ?        S    19:52   0:00 (sd-pam)
+drake21     2665  0.2  0.1 118100 16904 ?        S<sl 19:52   0:15 /usr/bin/pipewire
+drake21     2666  0.0  0.0  97736  5776 ?        Ssl  19:52   0:00 /usr/bin/pipewire -c fil
+drake21     2668  0.0  0.1 406976 18448 ?        S<sl 19:52   0:02 /usr/bin/wireplumber
+drake21     2669  0.3  0.1 121672 20108 ?        S<sl 19:52   0:16 /usr/bin/pipewire-pulse
+drake21     2670  0.0  0.0 463972  9808 ?        SLsl 19:52   0:00 /usr/bin/gnome-keyring-d
+drake21     2677  0.0  0.0  11280  6752 ?        Ss   19:52   0:02 /usr/bin/dbus-daemon --s
+drake21     2723  0.0  0.0 610292  7064 ?        Ssl  19:52   0:00 /usr/libexec/xdg-documen
+drake21     2727  0.0  0.0 309308  6076 ?        Ssl  19:52   0:00 /usr/libexec/xdg-permiss
+root        2734  0.0  0.0   2704  1880 ?        Ss   19:52   0:00 fusermount3 -o rw,nosuid
+drake21     2767  0.0  0.0 235668  5908 tty2     Ssl+ 19:52   0:00 /usr/libexec/gdm-wayland
+drake21     2782  0.0  0.1 298236 16320 tty2     Sl+  19:52   0:00 /usr/libexec/gnome-sessi
+drake21     2875  0.0  0.0 162652  6696 ?        Ssl  19:52   0:00 /usr/libexec/gcr-ssh-age
+drake21     2877  0.0  0.0  91548  5656 ?        Ssl  19:52   0:00 /usr/libexec/gnome-sessi
+drake21     2893  0.0  0.0 314284  7764 ?        Ssl  19:52   0:00 /usr/libexec/gvfsd
+drake21     2902  0.0  0.0 459708  6788 ?        Sl   19:52   0:00 /usr/libexec/gvfsd-fuse 
+drake21     2905  0.0  0.1 520496 17628 ?        Ssl  19:52   0:00 /usr/libexec/gnome-sessi
+drake21     2945  0.0  0.0 382944  7368 ?        Sl   19:52   0:00 /usr/libexec/at-spi-bus-
+drake21     2948  9.0  2.1 5311924 352916 ?      Ssl  19:52   8:11 /usr/bin/gnome-shell
+drake21     2962  0.0  0.0   9480  4980 ?        S    19:52   0:00 /usr/bin/dbus-daemon --c
+drake21     3063  0.0  0.0 236068  7540 ?        Sl   19:52   0:00 /usr/libexec/at-spi2-reg
+drake21     3082  0.0  0.1 655936 20992 ?        Sl   19:52   0:00 /usr/libexec/gnome-shell
+drake21     3090  0.0  0.2 1272708 42688 ?       Ssl  19:52   0:00 /usr/libexec/evolution-s
+drake21     3101  0.0  0.1 2924752 26932 ?       Sl   19:52   0:00 /usr/bin/gjs -m /usr/sha
+drake21     3130  0.3  0.0 462584 11920 ?        Ssl  19:52   0:17 /usr/bin/ibus-daemon --p
+drake21     3131  0.0  0.0 383524  6396 ?        Ssl  19:52   0:00 /usr/libexec/gsd-a11y-se
+drake21     3132  0.0  0.1 413128 19820 ?        Ssl  19:52   0:00 /usr/libexec/gsd-color
+drake21     3135  0.0  0.0 431672 12076 ?        Ssl  19:52   0:00 /usr/libexec/gsd-datetim
+drake21     3138  0.0  0.0 459032  7600 ?        Ssl  19:52   0:00 /usr/libexec/gsd-houseke
+drake21     3140  0.0  0.1 485656 19456 ?        Ssl  19:52   0:00 /usr/libexec/gsd-keyboar
+drake21     3141  0.0  0.1 594252 25176 ?        Ssl  19:52   0:00 /usr/libexec/gsd-media-k
+drake21     3142  0.0  0.1 523660 24244 ?        Ssl  19:52   0:00 /usr/libexec/gsd-power
+drake21     3148  0.0  0.0 323628 11336 ?        Ssl  19:52   0:00 /usr/libexec/gsd-print-n
+drake21     3155  0.0  0.0 457352  6508 ?        Ssl  19:52   0:00 /usr/libexec/gsd-rfkill
+drake21     3162  0.0  0.0 309560  6136 ?        Ssl  19:52   0:00 /usr/libexec/gsd-screens
+drake21     3166  0.0  0.0 543192 11516 ?        Ssl  19:52   0:00 /usr/libexec/gsd-sharing
+drake21     3167  0.0  0.0 459556  7948 ?        Ssl  19:52   0:00 /usr/libexec/gsd-smartca
+drake21     3168  0.0  0.0 393636  9252 ?        Ssl  19:52   0:00 /usr/libexec/gsd-sound
+drake21     3171  0.0  0.1 486492 19744 ?        Ssl  19:52   0:00 /usr/libexec/gsd-wacom
+drake21     3180  0.0  0.1 546664 23668 ?        Sl   19:52   0:00 /usr/libexec/goa-daemon
+drake21     3223  0.0  0.0 389324 10624 ?        Ssl  19:52   0:00 /usr/libexec/gvfs-udisks
+drake21     3234  0.0  0.0 305492  7688 ?        Sl   19:52   0:00 /usr/libexec/gsd-disk-ut
+drake21     3243  0.0  0.3 897480 62812 ?        Sl   19:52   0:00 /usr/libexec/evolution-d
+drake21     3307  0.0  0.0 389124  8988 ?        Sl   19:52   0:00 /usr/libexec/goa-identit
+root        3310  0.2  0.0      0     0 ?        I    19:52   0:15 [kworker/2:0-i915-unorde
+drake21     3318  0.0  0.0  39136 11884 ?        Ss   19:52   0:00 /snap/snapd-desktop-inte
+drake21     3337  0.0  0.0 416236 15144 ?        Sl   19:52   0:00 /usr/libexec/gsd-printer
+drake21     3351  0.0  0.0 310468  7008 ?        Sl   19:52   0:00 /usr/libexec/ibus-dconf
+drake21     3352  0.1  0.1 421540 29532 ?        Sl   19:52   0:05 /usr/libexec/ibus-extens
+drake21     3353  0.0  0.1 1169392 23668 ?       Ssl  19:52   0:00 /usr/libexec/evolution-c
+drake21     3358  0.0  0.0 310424  7140 ?        Sl   19:52   0:00 /usr/libexec/ibus-portal
+drake21     3382  0.0  0.0 309772  6560 ?        Ssl  19:52   0:00 /usr/libexec/gvfs-goa-vo
+drake21     3404  0.0  0.0 309792  6340 ?        Ssl  19:52   0:00 /usr/libexec/gvfs-mtp-vo
+drake21     3416  0.0  0.1 751588 29932 ?        Ssl  19:52   0:00 /usr/libexec/evolution-a
+drake21     3417  0.0  0.0 389376  7868 ?        Ssl  19:52   0:00 /usr/libexec/gvfs-afc-vo
+drake21     3429  0.0  0.0 310760  6888 ?        Ssl  19:52   0:00 /usr/libexec/gvfs-gphoto
+drake21     3489  0.0  0.1 429628 30368 ?        Sl   19:52   0:00 /snap/snapd-desktop-inte
+drake21     3500  0.1  0.0 236768  7056 ?        Sl   19:52   0:05 /usr/libexec/ibus-engine
+drake21     3521  0.0  0.0 230240  5552 ?        Ssl  19:52   0:00 /usr/libexec/dconf-servi
+drake21     3557  0.0  0.0 609440  8440 ?        Sl   19:52   0:00 /usr/libexec/gvfsd-trash
+drake21     3586  0.0  0.1 735576 27256 ?        SNsl 19:52   0:00 /usr/libexec/tracker-min
+drake21     3614  0.0  0.1 2859220 26844 ?       Sl   19:52   0:00 /usr/bin/gjs -m /usr/sha
+drake21     3631  0.0  0.0 701636 13960 ?        Ssl  19:52   0:00 /usr/libexec/xdg-desktop
+drake21     3636  0.0  0.2 909508 40908 ?        Ssl  19:52   0:00 /usr/libexec/xdg-desktop
+drake21     3645  0.0  0.5 3249728 93020 ?       Sl   19:52   0:02 gjs /usr/share/gnome-she
+drake21     3703  0.0  0.1 417796 25848 ?        Ssl  19:52   0:00 /usr/libexec/xdg-desktop
+drake21     3709  0.0  0.0 236304  6504 ?        Ssl  19:52   0:00 /usr/libexec/gvfsd-metad
+drake21     3792  0.0  0.1 568736 31196 ?        Sl   19:53   0:00 /usr/bin/update-notifier
+drake21     4104  0.0  0.0 462196  8212 ?        Sl   19:54   0:00 /usr/libexec/gvfsd-netwo
+drake21     4112  0.0  0.0 390548  8540 ?        Sl   19:54   0:00 /usr/libexec/gvfsd-dnssd
+drake21     4354  0.0  0.5 556504 89344 ?        Sl   19:55   0:00 /usr/bin/Xwayland :0 -ro
+drake21     4405  0.0  0.5 790024 84156 ?        Ssl  19:55   0:00 /usr/libexec/gsd-xsettin
+drake21     4446  0.0  0.1 267152 24424 ?        Sl   19:55   0:00 /usr/libexec/ibus-x11
+drake21     4453  0.0  0.5 1017448 87708 ?       Sl   19:55   0:00 /usr/libexec/mutter-x11-
+drake21     4503  0.0  0.1 1914172 25192 ?       Sl   19:55   0:00 /snap/snapd/current/usr/
+drake21     4695  0.9  0.4 753428 81144 ?        Ssl  19:55   0:51 /usr/libexec/gnome-termi
+drake21     4704  0.0  0.0  12632  6696 pts/0    Ss   19:55   0:00 bash
+drake21     5061  7.8  3.5 34671232 581716 ?     Sl   20:03   6:16 /snap/chromium/3265/usr/
+drake21     5140  0.0  0.0 33569140 4284 ?       Sl   20:03   0:00 /snap/chromium/3265/usr/
+drake21     5142  0.0  0.0 33560928 3780 ?       S    20:03   0:00 /snap/chromium/3265/usr/
+drake21     5146  0.0  0.3 33946872 64068 ?      S    20:03   0:00 /snap/chromium/3265/usr/
+drake21     5147  0.0  0.3 33946856 64184 ?      S    20:03   0:00 /snap/chromium/3265/usr/
+drake21     5149  0.0  0.1 33946880 17100 ?      S    20:03   0:01 /snap/chromium/3265/usr/
+drake21     5226  5.6  1.4 34595424 243244 ?     Sl   20:03   4:31 /snap/chromium/3265/usr/
+drake21     5241  1.3  0.9 33995004 154032 ?     Sl   20:03   1:06 /snap/chromium/3265/usr/
+drake21     5242  0.0  0.4 34020728 66596 ?      Sl   20:03   0:02 /snap/chromium/3265/usr/
+drake21     5425  0.0  0.9 1459748924 148680 ?   Sl   20:03   0:02 /snap/chromium/3265/usr/
+root        5469  0.0  0.0      0     0 ?        I    20:03   0:02 [kworker/6:0-events]
+drake21     6543  0.5  0.5 34026592 85520 ?      Sl   20:23   0:20 /snap/chromium/3265/usr/
+drake21     7044  2.0  2.0 1461507624 338564 ?   Sl   20:31   1:03 /snap/chromium/3265/usr/
+drake21     7240  0.7  1.5 1461494940 245960 ?   Sl   20:36   0:21 /snap/chromium/3265/usr/
+root        7262  0.0  0.2 482340 44412 ?        Ssl  20:37   0:01 /usr/libexec/fwupd/fwupd
+root        7335  0.0  0.0      0     0 ?        I    20:39   0:01 [kworker/5:0-events]
+root        7429  0.0  0.0      0     0 ?        I    20:40   0:01 [kworker/u32:1-flush-8:0
+drake21     7487  0.4  1.1 1459750036 180864 ?   Sl   20:42   0:09 /snap/chromium/3265/usr/
+drake21     7558  0.5  1.6 1459786960 271060 ?   Sl   20:42   0:13 /snap/chromium/3265/usr/
+drake21     7639  0.2  1.1 1459731640 183360 ?   Sl   20:42   0:05 /snap/chromium/3265/usr/
+drake21     7648  0.1  0.9 1459731312 159380 ?   Sl   20:42   0:02 /snap/chromium/3265/usr/
+drake21     7657  0.2  1.2 1459748172 202244 ?   Sl   20:42   0:06 /snap/chromium/3265/usr/
+drake21     7666  0.0  0.8 1459731232 135844 ?   Sl   20:42   0:00 /snap/chromium/3265/usr/
+drake21     7697  0.1  0.9 1459731560 160516 ?   Sl   20:42   0:04 /snap/chromium/3265/usr/
+drake21     7706  0.2  1.2 1459740096 197020 ?   Sl   20:42   0:06 /snap/chromium/3265/usr/
+drake21     7715  0.0  0.9 1459732656 160288 ?   Sl   20:42   0:01 /snap/chromium/3265/usr/
+drake21     7730  0.0  0.8 1459731096 139536 ?   Sl   20:42   0:01 /snap/chromium/3265/usr/
+drake21     7748  0.1  1.0 1459731244 171228 ?   Sl   20:42   0:03 /snap/chromium/3265/usr/
+drake21     7755  0.0  0.9 1459731252 158972 ?   Sl   20:42   0:02 /snap/chromium/3265/usr/
+drake21     7767  0.1  1.0 1459731352 177176 ?   Sl   20:42   0:04 /snap/chromium/3265/usr/
+drake21     7773  0.1  0.9 1459731108 156780 ?   Sl   20:42   0:02 /snap/chromium/3265/usr/
+drake21     7782  0.0  0.8 1459731296 141640 ?   Sl   20:42   0:01 /snap/chromium/3265/usr/
+drake21     7791  0.0  0.9 1459731232 156948 ?   Sl   20:42   0:01 /snap/chromium/3265/usr/
+drake21     7803  0.1  1.0 1459731344 172896 ?   Sl   20:42   0:04 /snap/chromium/3265/usr/
+drake21     7809  0.0  0.8 1459731096 144220 ?   Sl   20:42   0:01 /snap/chromium/3265/usr/
+drake21     7819  0.0  0.9 1459731160 150492 ?   Sl   20:42   0:02 /snap/chromium/3265/usr/
+drake21     7829  0.1  0.9 1459731104 161092 ?   Sl   20:42   0:02 /snap/chromium/3265/usr/
+drake21     7897  0.0  0.9 1459731620 161920 ?   Sl   20:42   0:01 /snap/chromium/3265/usr/
+drake21     7917  0.0  0.8 1459731100 139020 ?   Sl   20:43   0:01 /snap/chromium/3265/usr/
+drake21     7927  0.0  0.8 1459731096 145612 ?   Sl   20:43   0:01 /snap/chromium/3265/usr/
+drake21     7945  0.0  0.7 1459731144 116484 ?   Sl   20:43   0:00 /snap/chromium/3265/usr/
+drake21     7978  0.0  0.8 1459731160 138884 ?   Sl   20:43   0:01 /snap/chromium/3265/usr/
+drake21     7987  0.0  0.8 1459731096 144572 ?   Sl   20:43   0:01 /snap/chromium/3265/usr/
+drake21     8135  0.0  0.9 1459742720 159320 ?   Sl   20:43   0:01 /snap/chromium/3265/usr/
+drake21     8145  0.0  0.7 1459731144 116528 ?   Sl   20:43   0:00 /snap/chromium/3265/usr/
+root        8270  0.0  0.0   3212  1832 ?        S    20:44   0:00 sleep 3600
+drake21     8416  0.0  0.0 388228  8268 ?        Sl   20:46   0:00 /usr/libexec/gvfsd-recen
+drake21     8461  0.0  0.0  11396  5556 pts/2    Ss   20:46   0:00 bash
+root        8701  0.1  0.0      0     0 ?        I<   20:48   0:02 [kworker/u33:1-rb_alloca
+drake21     8759  0.0  0.0   8432  5856 ?        S    20:51   0:00 /usr/bin/ssh-agent -D -a
+drake21     8803  0.9  1.3 1459780168 217716 ?   Sl   20:52   0:16 /snap/chromium/3265/usr/
+root        8913  0.0  0.0      0     0 ?        I    20:53   0:01 [kworker/3:0-events]
+root        9299  0.0  0.0      0     0 ?        I    20:58   0:00 [kworker/1:2-events]
+drake21     9474  0.1  1.0 1459742432 166176 ?   Sl   20:59   0:02 /snap/chromium/3265/usr/
+root        9509  0.0  0.0      0     0 ?        I    21:00   0:00 [kworker/5:3-i915-unorde
+drake21     9548  0.0  0.0 147656  8784 ?        Ssl  21:00   0:00 /snap/firmware-updater/2
+drake21     9890  4.5  1.8 1461526208 293304 ?   Sl   21:03   0:53 /snap/chromium/3265/usr/
+root       10081  0.2  0.0      0     0 ?        D<   21:08   0:01 [kworker/u33:0+i915_flip
+drake21    10084  0.0  0.2 67543724 48264 ?      Sl   21:08   0:00 /snap/chromium/3265/usr/
+drake21    10259  1.1  1.6 1459778676 264388 ?   Sl   21:08   0:09 /snap/chromium/3265/usr/
+drake21    10287  0.1  0.9 1459731500 153672 ?   Sl   21:08   0:01 /snap/chromium/3265/usr/
+drake21    10336  0.0  0.7 1459731144 117776 ?   Sl   21:08   0:00 /snap/chromium/3265/usr/
+drake21    10348  0.1  0.9 1459731096 148380 ?   Sl   21:08   0:01 /snap/chromium/3265/usr/
+drake21    10366  0.1  0.8 1459731100 142236 ?   Sl   21:08   0:01 /snap/chromium/3265/usr/
+drake21    10375  0.1  0.8 1459731112 145956 ?   Sl   21:08   0:01 /snap/chromium/3265/usr/
+drake21    10394  0.1  0.8 1459731096 139920 ?   Sl   21:08   0:00 /snap/chromium/3265/usr/
+drake21    10414  0.0  0.8 1459731096 133744 ?   Sl   21:08   0:00 /snap/chromium/3265/usr/
+drake21    10446  0.0  0.8 1459731160 140408 ?   Sl   21:08   0:00 /snap/chromium/3265/usr/
+root       10455  0.0  0.0      0     0 ?        I    21:08   0:00 [kworker/3:2-events]
+drake21    10456  0.0  0.8 1459731096 136128 ?   Sl   21:09   0:00 /snap/chromium/3265/usr/
+drake21    10465  0.1  0.9 1459731096 147940 ?   Sl   21:09   0:01 /snap/chromium/3265/usr/
+drake21    10479  0.0  0.8 1459731096 132516 ?   Sl   21:09   0:00 /snap/chromium/3265/usr/
+drake21    10486  0.1  0.9 1459731604 155088 ?   Sl   21:09   0:01 /snap/chromium/3265/usr/
+drake21    10506  0.1  0.8 1459731096 136372 ?   Sl   21:09   0:00 /snap/chromium/3265/usr/
+drake21    10524  0.0  0.7 1459731096 129752 ?   Sl   21:09   0:00 /snap/chromium/3265/usr/
+drake21    10530  0.0  0.8 1459731096 136880 ?   Sl   21:09   0:00 /snap/chromium/3265/usr/
+drake21    10539  0.0  0.8 1459731100 135696 ?   Sl   21:09   0:00 /snap/chromium/3265/usr/
+drake21    10592  0.0  0.7 1459731144 116528 ?   Sl   21:09   0:00 /snap/chromium/3265/usr/
+drake21    10639  0.0  0.8 1459731096 131072 ?   Sl   21:09   0:00 /snap/chromium/3265/usr/
+drake21    10668  0.0  0.8 1459731096 130340 ?   Sl   21:09   0:00 /snap/chromium/3265/usr/
+root       10677  0.0  0.0      0     0 ?        I    21:09   0:00 [kworker/4:2-events]
+drake21    10678  0.0  0.8 1459731096 133496 ?   Sl   21:09   0:00 /snap/chromium/3265/usr/
+drake21    10687  0.1  0.8 1459731096 137088 ?   Sl   21:09   0:00 /snap/chromium/3265/usr/
+drake21    10714  0.0  0.8 1459731096 136036 ?   Sl   21:09   0:00 /snap/chromium/3265/usr/
+drake21    10723  0.0  0.7 1459731144 116484 ?   Sl   21:09   0:00 /snap/chromium/3265/usr/
+drake21    10737  0.0  0.8 1459731100 136072 ?   Sl   21:09   0:00 /snap/chromium/3265/usr/
+drake21    10746  0.0  0.0  28528 14136 pts/0    Tl   21:09   0:00 vim README.md
+drake21    10832  0.0  0.7 1459731144 116704 ?   Sl   21:09   0:00 /snap/chromium/3265/usr/
+root       11060  0.0  0.0      0     0 ?        I    21:10   0:00 [kworker/0:1-events]
+root       11138  0.0  0.0      0     0 ?        I    21:11   0:00 [kworker/u32:0-kvfree_rc
+root       11235  0.0  0.0      0     0 ?        I    21:12   0:00 [kworker/7:0-i915-unorde
+drake21    11308  0.0  0.0  27416 13072 pts/2    Sl+  21:13   0:00 vim Day 6 – Integration 
+drake21    11339  0.9  1.4 1459772560 237200 ?   Sl   21:14   0:05 /snap/chromium/3265/usr/
+root       11348  0.0  0.0      0     0 ?        I<   21:14   0:00 [kworker/u33:2]
+drake21    11351  0.2  0.9 1459731240 147056 ?   Sl   21:14   0:01 /snap/chromium/3265/usr/
+root       11405  0.0  0.0      0     0 ?        I    21:15   0:00 [kworker/6:1-cgroup_dest
+drake21    11491  8.0  1.9 1459766664 316684 ?   Sl   21:16   0:31 /snap/chromium/3265/usr/
+drake21    11517  0.2  0.8 1461443428 139336 ?   Sl   21:16   0:00 /snap/chromium/3265/usr/
+root       11545  0.0  0.0      0     0 ?        I    21:17   0:00 [kworker/0:0]
+root       11546  0.0  0.0      0     0 ?        I    21:17   0:00 [kworker/2:1-i915-unorde
+root       11607  0.0  0.0      0     0 ?        I    21:19   0:00 [kworker/3:1-events]
+root       11608  0.0  0.0      0     0 ?        I    21:19   0:00 [kworker/u32:2]
+root       11609  0.0  0.0      0     0 ?        I    21:19   0:00 [kworker/u32:4-i915]
+drake21    11651  0.0  0.4 1459689276 75336 ?    Sl   21:21   0:00 /snap/chromium/3265/usr/
+root       11671  0.0  0.0      0     0 ?        I    21:22   0:00 [kworker/6:2-cgroup_dest
+root       11672  0.0  0.0      0     0 ?        I    21:22   0:00 [kworker/1:0-events]
+root       11681  0.0  0.0      0     0 ?        I    21:23   0:00 [kworker/0:2-events]
+drake21    11688 29.6  1.4 1461445636 241272 ?   Sl   21:23   0:04 /snap/chromium/3265/usr/
+drake21    11705  200  0.0  13880  4640 pts/0    R+   21:23   0:00 ps aux
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps/devops_day6$ 
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps/devops_day6$ ps aux --sort=-%mem | head -6
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+drake21     5061  7.7  3.5 34675248 583516 ?     Sl   20:03   6:30 /snap/chromium/3265/usr/lib/chromium-browser/chrome --password-store=basic --gtk-version=3 --disable-features=TFLiteLanguageDetectionEnabled
+drake21     7044  1.9  2.1 1461507624 356108 ?   Sl   20:31   1:06 /snap/chromium/3265/usr/lib/chromium-browser/chrome --type=renderer --crashpad-handler-pid=5140 --enable-crash-reporter=,snap --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=102 --time-ticks-at-unix-epoch=-1761414274906104 --launch-time-ticks=2822622046 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,3971442714717946925,13977889622277819481,2097152 --field-trial-handle=3,i,17899313980607338380,107038936270145783,262144 --disable-features=EyeDropper,TFLiteLanguageDetectionEnabled --variations-seed-version
+drake21     2948  8.8  2.1 5311924 352860 ?      Ssl  19:52   8:21 /usr/bin/gnome-shell
+drake21     9890  3.8  1.8 1461526208 293304 ?   Sl   21:03   0:54 /snap/chromium/3265/usr/lib/chromium-browser/chrome --type=renderer --crashpad-handler-pid=5140 --enable-crash-reporter=,snap --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=264 --time-ticks-at-unix-epoch=-1761414274906104 --launch-time-ticks=4750886205 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,6872662373950824079,547236008999179865,2097152 --field-trial-handle=3,i,17899313980607338380,107038936270145783,262144 --disable-features=EyeDropper,TFLiteLanguageDetectionEnabled --variations-seed-version
+drake21    11882 30.3  1.6 1461445636 274868 ?   Sl   21:27   0:03 /snap/chromium/3265/usr/lib/chromium-browser/chrome --type=renderer --crashpad-handler-pid=5140 --enable-crash-reporter=,snap --extension-process --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=413 --time-ticks-at-unix-epoch=-1761414274906104 --launch-time-ticks=6150192041 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,16157524048426862896,16417990157313414801,2097152 --field-trial-handle=3,i,17899313980607338380,107038936270145783,262144 --disable-features=EyeDropper,TFLiteLanguageDetectionEnabled --variations-seed-version
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps/devops_day6$ find /etc -type f -mtime -1 | ws -l
+find: ‘/etc/sssd’: Permission denied
+find: ‘/etc/ssl/private’: Permission denied
+find: ‘/etc/polkit-1/rules.d’: Permission denied
+find: ‘/etc/credstore.encrypted’: Permission denied
+find: ‘/etc/credstore’: Permission denied
+find: ‘/etc/cups/ssl’: Permission denied
+ws: command not found
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps/devops_day6$ sudo find /etc -type f -mtime -1 | ws -l
+[sudo] password for drake21: ws: command not found
+
+sudo: a password is required
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps/devops_day6$ sudo find /etc -type f -mtime -1 | wc -l
+[sudo] password for drake21: 
+5
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps/devops_day6$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.6G  2.5M  1.6G   1% /run
+/dev/nvme0n1p1  468G   15G  430G   4% /
+tmpfs           7.8G  277M  7.5G   4% /dev/shm
+tmpfs           5.0M   12K  5.0M   1% /run/lock
+efivarfs        384K  369K   11K  98% /sys/firmware/efi/efivars
+/dev/sda1       916G  8.9G  861G   2% /home
+/dev/nvme0n1p2  1.1G  6.2M  1.1G   1% /boot/efi
+tmpfs           1.6G  132K  1.6G   1% /run/user/1000
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps/devops_day6$ last -n 5
+drake21  tty2         tty2             Sat Oct 25 19:52   still logged in
+drake21  seat0        login screen     Sat Oct 25 19:52   still logged in
+reboot   system boot  6.14.0-33-generi Sat Oct 25 19:44   still running
+drake21  tty2         tty2             Sat Oct 25 13:27 - down   (02:59)
+drake21  seat0        login screen     Sat Oct 25 13:27 - down   (02:59)
+
+wtmp begins Mon Oct 13 20:21:39 2025
+

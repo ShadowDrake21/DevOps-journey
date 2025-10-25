@@ -4,4 +4,8 @@ In the beginning, I have reviewed core topics:
 - https://medium.com/@itsmepankaj/git-workflow-add-commit-push-pull-69adf44cf812;
 - https://medium.com/@promisevector/bash-scripting-variables-conditionals-and-looping-5100198da227.
 
-Next I have created a Bash automation challenge - a backup automation script for a local project directory
+Next I have created a Bash automation challenge - a backup automation script for a local project directory.
+
+After that I have been working on Git mini-workflow project (a maintenance of the backup script in a repo) - a repo devops-backup (https://github.com/ShadowDrake21/devops-backup).
+
+In the end, I have been practicing with Linux system, making practical tasks and mini-mission (a Bash script that saves disk usage, memory usage and top 5 CPU processes to a txt file). 
