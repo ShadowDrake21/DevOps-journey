@@ -17,3 +17,12 @@ For that I read additional sourses:
 -- displays current load average and uptime;
 -- saves output to a log file;
 -- uses date in logs to timestamp.
+
+3) Log Analyser:
+I have written a script that:
+- reads any system log file;
+- counts number of ERROR, WARNING, INFO entries;
+- extracts top 5 most frequent words;
+- saves results to a file txt.
+I have used grep, awk, sort, uniq, head etc.
+Also I added colored output and argument parsing.
