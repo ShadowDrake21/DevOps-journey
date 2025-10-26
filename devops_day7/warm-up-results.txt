@@ -1,0 +1,107 @@
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps/days_summaries$ sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y
+[sudo] password for drake21: 
+Get:1 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Hit:2 http://archive.ubuntu.com/ubuntu noble InRelease                                    
+Get:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]                   
+Hit:4 https://ppa.launchpadcontent.net/git-core/ppa/ubuntu noble InRelease                
+Get:5 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]                
+Get:6 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.6 kB]
+Get:7 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
+Get:8 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [52.2 kB]
+Get:9 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [208 B]
+Get:10 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1,541 kB]
+Get:11 http://archive.ubuntu.com/ubuntu noble-updates/main Translation-en [292 kB]
+Get:12 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [175 kB]
+Get:13 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [2,170 kB]
+Get:14 http://archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [489 kB]
+Get:15 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
+Get:16 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [377 kB]
+Get:17 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+Get:18 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7,148 B]
+Get:19 http://archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [212 B]
+Get:20 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [11.0 kB]
+Get:21 http://archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
+Fetched 5,517 kB in 2s (2,346 kB/s)                               
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+4 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Calculating upgrade... Done
+The following package was automatically installed and is no longer required:
+  libllvm19
+Use 'sudo apt autoremove' to remove it.
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  libzvbi-common libcjson1 libpostproc57 libavcodec60 libzvbi0t64 libavutil58
+  libswscale7 libswresample4 libavformat60 libavfilter9
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+The following packages will be upgraded:
+  bind9-dnsutils bind9-host bind9-libs distro-info-data
+4 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+3 standard LTS security updates
+Need to get 1,470 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 distro-info-data all 0.60ubuntu0.5 [6,934 B]
+Get:2 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 bind9-dnsutils amd64 1:9.18.39-0ubuntu0.24.04.2 [156 kB]
+Get:3 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 bind9-host amd64 1:9.18.39-0ubuntu0.24.04.2 [50.5 kB]
+Get:4 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 bind9-libs amd64 1:9.18.39-0ubuntu0.24.04.2 [1,257 kB]
+Fetched 1,470 kB in 1s (2,070 kB/s)   
+(Reading database ... 160195 files and directories currently installed.)
+Preparing to unpack .../distro-info-data_0.60ubuntu0.5_all.deb ...
+Unpacking distro-info-data (0.60ubuntu0.5) over (0.60ubuntu0.3) ...
+Preparing to unpack .../bind9-dnsutils_1%3a9.18.39-0ubuntu0.24.04.2_amd64.deb ...
+Unpacking bind9-dnsutils (1:9.18.39-0ubuntu0.24.04.2) over (1:9.18.39-0ubuntu0.24.04.1) ...
+Preparing to unpack .../bind9-host_1%3a9.18.39-0ubuntu0.24.04.2_amd64.deb ...
+Unpacking bind9-host (1:9.18.39-0ubuntu0.24.04.2) over (1:9.18.39-0ubuntu0.24.04.1) ...
+Preparing to unpack .../bind9-libs_1%3a9.18.39-0ubuntu0.24.04.2_amd64.deb ...
+Unpacking bind9-libs:amd64 (1:9.18.39-0ubuntu0.24.04.2) over (1:9.18.39-0ubuntu0.24.04.1) .
+..
+Setting up bind9-libs:amd64 (1:9.18.39-0ubuntu0.24.04.2) ...
+Setting up distro-info-data (0.60ubuntu0.5) ...
+Setting up bind9-host (1:9.18.39-0ubuntu0.24.04.2) ...
+Setting up bind9-dnsutils (1:9.18.39-0ubuntu0.24.04.2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.6) ...
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following packages will be REMOVED:
+  libllvm19
+0 upgraded, 0 newly installed, 1 to remove and 0 not upgraded.
+After this operation, 129 MB disk space will be freed.
+(Reading database ... 160195 files and directories currently installed.)
+Removing libllvm19:amd64 (1:19.1.1-1ubuntu1~24.04.2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.6) ...
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps/days_summaries$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.6G  2.5M  1.6G   1% /run
+/dev/nvme0n1p1  468G   15G  430G   4% /
+tmpfs           7.8G   94M  7.7G   2% /dev/shm
+tmpfs           5.0M   12K  5.0M   1% /run/lock
+efivarfs        384K  384K     0 100% /sys/firmware/efi/efivars
+/dev/nvme0n1p2  1.1G  6.2M  1.1G   1% /boot/efi
+/dev/sda1       916G  9.0G  861G   2% /home
+tmpfs           1.6G  132K  1.6G   1% /run/user/1000
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps/days_summaries$ free -m
+               total        used        free      shared  buff/cache   available
+Mem:           15855        3610        9632         913        3859       12245
+Swap:           4095           0        4095
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps/days_summaries$ echo $SHELL
+/bin/bash
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps/days_summaries$ echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps/days_summaries$ cd ..
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps$ mkdir 
+allfiles.txt    devops_day1/    devops_day5/    .gitignore      
+change.txt      devops_day3/    devops_day6/    README.md       
+days_summaries/ devops_day4/    .git/           
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps$ mkdir 
+allfiles.txt    devops_day1/    devops_day5/    .gitignore      
+change.txt      devops_day3/    devops_day6/    README.md       
+days_summaries/ devops_day4/    .git/           
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps$ mkdir devops_day7 && cd devops_day7
+drake21@drake21-Inspiron-7577:/mnt/hdd/DevOps/devops_day7$ 
+
+

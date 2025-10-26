@@ -1,0 +1,19 @@
+First of all, I have had a quick system refresh and environment prep: update packages and clean cache, check disk and memory usage, exploration of shell environment.
+
+Next I have done practical tasks:
+1) Permissions and ownership:
+- created users devops 1, devops2;
+- created shared directory /srv/devops_data and gave read/write permissions to both users gvia group permissions;
+- set permissions correctly;
+- made sure new files in the folder inherit group (sudo chmod g+s /srv/devops_data).
+For that I read additional sourses:
+- https://www.redhat.com/en/blog/linux-groups;
+- https://www.redhat.com/en/blog/linux-access-control-lists.
+
+2) System monitoring:
+- created some command aliases;
+- made a Bash script monitor.sh that:
+-- shows top 5 CPU and memory processes;
+-- displays current load average and uptime;
+-- saves output to a log file;
+-- uses date in logs to timestamp.
