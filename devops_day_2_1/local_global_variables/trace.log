@@ -1,0 +1,8 @@
++ export 'PS4=+ ${BASH_SOURCE}:${LINENO}:${FUNCNAME[0]}: '
++ PS4='+ ${BASH_SOURCE}:${LINENO}:${FUNCNAME[0]}: '
++ prevent_overwriting.sh:3:: set -x
++ prevent_overwriting.sh:4:: x='Hello!!!'
++ prevent_overwriting.sh:5:: echo 'Outside first function x=Hello!!!'
+Outside first function x=Hello!!!
++ prevent_overwriting.sh:9:: set +x
+After overwriting, x=Hello!!!
