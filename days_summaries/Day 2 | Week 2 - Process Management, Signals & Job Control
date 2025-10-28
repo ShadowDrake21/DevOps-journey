@@ -28,3 +28,14 @@ Then I opened 2 terminals. In one of them I run a long process (yes > /dev/null)
 In Phase 2 - Bash + Processes:
 I have created script background_logger.sh that spawns and controls processes.
 In the next script signal_handler.sh I have handled termination signals cleanly and gracefully, written resilient scripts that don't crash on interruption.
+
+In Phase 3 - Analysis & Reflection:
+- I've run both scripts and monitored them, using commands ps -ef | grep logger, htop, vmstat 1;
+- I've observed how memory and CPU behave, how processes appear and disappear after wait or kill;
+- I've done troubleshooting task: run an infinite loop without trap and kill it, try running a background task without wait and check for zombies.
+
+I've also done an extra challenge.
+A script that:
+- spawns background monitoring processes (vmstat, iostat, ping);
+- handles termination via trap;
+- logs output to /var/log/devops_monitor.log.

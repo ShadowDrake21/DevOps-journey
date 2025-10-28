@@ -7,5 +7,5 @@ for i in {1..5}; do
 	sleep 5 &
 done
 
-wait
+#wait
 echo "All tasks finished!" >> "$LOGFILE"
