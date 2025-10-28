@@ -1,0 +1,30 @@
+In the beginning, I have read the next articles for the Phase 1 - Deep Dive: Process Fundamentals:
+1. What is a process, PID, PPID, and UID:
+- https://www.geeksforgeeks.org/linux-unix/processes-in-linuxunix/;
+- https://www.baeldung.com/linux/pid-tid-ppid.
+2. Process states: running, sleeping, zombie, stopped:
+- https://www.baeldung.com/linux/process-states.
+3. Foreground (fg), background (bg), and job control:
+- https://www.redhat.com/en/blog/jobs-bg-fg.
+4. Signals: SIGTERM, SIGKILL, SIGINT, SIGHUP:
+- https://www.baeldung.com/linux/sigint-and-other-termination-signals.
+
+Additional resources:
+- https://linuxize.com/post/bash-wait/.
+
+I have also practices with: 
+ps aux | less
+top
+htop
+jobs
+bg %1
+fg %1
+kill -9 <PID>
+killall <process_name>
+trap 'echo "Caught SIGINT!"' SIGINT.
+
+Then I opened 2 terminals. In one of them I run a long process (yes > /dev/null), in the another - I tried kill, killall, fg, bg and trap to observe behavior.
+
+In Phase 2 - Bash + Processes:
+I have created script background_logger.sh that spawns and controls processes.
+In the next script signal_handler.sh I have handled termination signals cleanly and gracefully, written resilient scripts that don't crash on interruption.
