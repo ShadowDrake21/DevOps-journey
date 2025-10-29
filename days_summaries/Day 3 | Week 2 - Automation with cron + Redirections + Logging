@@ -19,3 +19,7 @@ Next I have learned the concepts from these articles and videos:
 - https://www.networkworld.com/article/965762/using-logger-on-linux.html.
 
 I have also created a script auto_backup.sh that added to crontab and then validated cron logs.
+
+Phase 3 - Automation Project: Silent DevOps Logger:
+I have created a script "system_audit.sh" that combines everything: redirections, signals, cron, sending emails to the mail.
+The only problem I had had there was seding emails to the my email address, because of setting up the credentials, but everything went successfully eventually.
