@@ -1,0 +1,12 @@
+Phase 1 - Mastering Redirections:
+First of all, I have read these articles to understand the topic better:
+- https://www.geeksforgeeks.org/linux-unix/input-output-redirection-in-linux/;
+- https://www.redhat.com/en/blog/linux-shell-redirection-pipelining.
+Then I have practiced:
+1) ls /etc > files.log
+ls /not_real_dir 2> errors.log
+cat files.log errors.log;
+2) ping -c 3 google.com > ping.log 2>&1;
+3) Created the script redirection_test.sh.
+
+Phase 2 - Cron and Scheduling:
