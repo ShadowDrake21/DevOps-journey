@@ -1,0 +1,21 @@
+Phase 1 - Pipes & Command Chaining:
+First of all I have learnt neccessary information from the articles:
+
+-https://www.geeksforgeeks.org/linux-unix/piping-in-unix-or-linux/;
+- Command chaining: &&  # run next if success; ||  # run next if failure; ;   # run regardless;
+- https://www.geeksforgeeks.org/linux-unix/xargs-command-unix/;
+- https://www.geeksforgeeks.org/linux-unix/tee-command-linux-example/.
+
+Next I have practiced:
+
+- tried different pipelines: 
+ps aux | grep bash | wc -l
+du -sh /etc/* | sort -hr | head -5;
+- combined with conditions: 
+ping -c 1 google.com && echo "Network OK" || echo "Network down";
+- tried xargs:
+ls *.log | xargs -I {} gzip {};
+- built a small chained command:
+df -h | tee df.txt | grep '/dev/' | awk '{print $1, $5}'.
+
+Phase 2 - Process Management & Job Control:
