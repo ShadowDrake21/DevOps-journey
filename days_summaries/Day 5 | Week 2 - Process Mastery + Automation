@@ -1,0 +1,16 @@
+Phase 1 - Warm-up and Deep dive: Linux process control:
+I have read the next article to gain knowledge I needed:
+- https://www.digitalocean.com/community/tutorials/nohup-command-in-linux;
+- https://www.geeksforgeeks.org/linux-unix/shell-scripting-disown-command/;
+- https://www.suse.com/c/observability-sigkill-vs-sigterm-a-developers-guide-to-process-termination/ (section: SIGTERM vs SIGKILL: An In-depth Comparison).
+
+Then I have done a small task: 
+ps aux | head
+pstree -p
+jobs
+kill -l
+
+After that I have practiced with process states and priority manipulation:
+1. I have started three background states;
+2. I have used ps, top and renice to manipulate priorities;
+3. I have written a script process_control.sh to manipulate with processes.
