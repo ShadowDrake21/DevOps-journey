@@ -14,3 +14,7 @@ After that I have practiced with process states and priority manipulation:
 1. I have started three background states;
 2. I have used ps, top and renice to manipulate priorities;
 3. I have written a script process_control.sh to manipulate with processes.
+
+Phase 2 and 3 - Task automation with cron + logs and Log cleaner
+I have created the script system_report.sh and set it up to be executed in cron every 2 hours.
+I have also created the script log_cleaner.sh. It also was set in cron to run every 3 hours.
