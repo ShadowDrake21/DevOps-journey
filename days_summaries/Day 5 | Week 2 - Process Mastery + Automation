@@ -18,3 +18,10 @@ After that I have practiced with process states and priority manipulation:
 Phase 2 and 3 - Task automation with cron + logs and Log cleaner
 I have created the script system_report.sh and set it up to be executed in cron every 2 hours.
 I have also created the script log_cleaner.sh. It also was set in cron to run every 3 hours.
+
+Practice: 
+I have built:
+- redirection_test.sh;
+- robust_script.sh;
+- system_maintenance_suite.sh - for automation of the monitoring, cleanup, reporting of system health;
+- cron_scheduler.sh - for setting system_maintenance_suit.sh to the cron.
