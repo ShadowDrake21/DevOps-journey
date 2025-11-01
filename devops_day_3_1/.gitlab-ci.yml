@@ -1,46 +1,20 @@
 stages:
-  - build
+  - lint
   - test
-  - deploy
 
-.tags_for_dev_jobs: &tags_gcp_dev
-  tags:
-    - gcp
-    - dev
+artifacts:
+  paths:
+    - logs/
+  expire_in: 1 week
 
-build:
-  stage: build
+lint:
+  stage: lint
   script: 
-    - echo "Building"
+    - echo "Checking syntax..."
+    - bash -n *.sh
 
-  <<: *tags_gcp_dev
-
-unittest:
+test:
   stage: test
-  script: 
-    - echo "Run a unittest for the app"
-  <<: *tags_gcp_dev
-
-deploy:
-  stage: deploy
-  script: 
-    - echo "Deploying the app"
-  <<: *tags_gcp_dev
-
-test_on_mr:
-  stage: test
-  script: echo "Running tests on Merge Request..."
-  only:
-    - merge_requests
-
-deploy_on_main:
-  stage: deploy
-  script: echo "Deploying changes to production"
-  only:
-    - main
-
-deploy_on_release_tag:
-  stage: echo "Deploying changes to production"
-  rules:
-    - if: '$CI_COMMIT_TAG =~ /^v\d+\.\d+\.\d+$/'
-    - when: never
+  script:
+    - echo "Running Bash test job"
+    - ./script.sh
