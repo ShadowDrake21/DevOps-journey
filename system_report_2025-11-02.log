@@ -1,0 +1,23 @@
+===== System Report Sun Nov  2 06:04:13 PM CET 2025 =====
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.6G  2.6M  1.6G   1% /run
+/dev/nvme0n1p1  468G   16G  429G   4% /
+tmpfs           7.8G  155M  7.6G   2% /dev/shm
+tmpfs           5.0M   12K  5.0M   1% /run/lock
+efivarfs        384K  213K  167K  57% /sys/firmware/efi/efivars
+/dev/nvme0n1p2  1.1G  6.2M  1.1G   1% /boot/efi
+/dev/sda1       916G  9.3G  861G   2% /home
+tmpfs           1.6G  144K  1.6G   1% /run/user/1000
+               total        used        free      shared  buff/cache   available
+Mem:           15855        5833        7034        1138        4460       10022
+Swap:           4095           0        4095
+top - 18:04:14 up  2:50,  1 user,  load average: 1.50, 1.60, 1.22
+Tasks: 335 total,   1 running, 334 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.1 us,  1.9 sy,  0.0 ni, 89.5 id,  4.9 wa,  0.0 hi,  0.6 si,  0.0 st 
+MiB Mem :  15855.8 total,   7016.2 free,   5851.4 used,   4477.5 buff/cache     
+MiB Swap:   4096.0 total,   4096.0 free,      0.0 used.  10004.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  10776 drake21   20   0   14500   5472   3424 R  23.1   0.0   0:00.05 top
+      1 root      20   0   23780  14336   9344 S   0.0   0.1   0:05.80 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd

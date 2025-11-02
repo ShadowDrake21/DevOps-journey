@@ -1,0 +1,42 @@
+stages:
+  - lint
+  - test
+  - package
+
+variables:
+  PROJECT_NAME: "devops-ci-lab"
+  LOG_DIR: "logs"
+
+lint:
+  stage: lint
+  script:
+    - echo "Running shellcheck..."
+    - sudo apt-get update -qq && sudo apt-get install -y shellcheck
+    - shellcheck *.sh || true
+  artifacts:
+    paths:
+      - shellcheck.log
+    expire_in: 1 week
+
+test:
+  stage: test
+  script: 
+    - echo "Running Bash tests..."
+    - bash -n *.sh
+    - mkdir $LOG_DIR && touch $LOG_DIR/report.txt
+    - ./system_report.sh > $LOG_DIR/report.txt
+  artifacts:
+    paths:
+      - $LOG_DIR
+    expire_in: 1 week
+
+package:
+  stage: package
+  script:
+    - mkdir -p builds
+    - tar -czf builds/$PROJECT_NAME-$(date +%F).tar.gz $LOG_DIR
+  artifacts:
+    paths:
+      - builds/
+    expire_in: 2 weeks
+  when: manual
