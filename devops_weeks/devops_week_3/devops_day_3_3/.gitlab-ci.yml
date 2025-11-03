@@ -3,6 +3,7 @@ stages:
   - test
   - package
   - deploy
+  - cleanup
 
 variables:
   PROJECT_NAME: "devops-ci-lab"
@@ -77,3 +78,12 @@ deploy_staging:
     - main
   tags:
     - local-runner
+
+cleanup:
+  stage: cleanup
+  script: 
+    - echo "Cleaning temporary files..."
+    - rm -rf logs/ builds/
+  when: manual
+  needs: ["package"]
+  allow_failure: true
