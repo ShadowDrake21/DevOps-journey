@@ -1,0 +1,13 @@
+stages:
+  - build
+  - test
+
+build:
+  stage: build
+  script:
+    - echo "Build stage is running..."
+
+test:
+  stage: test
+  script:
+    - echo "Test stage is running..."
