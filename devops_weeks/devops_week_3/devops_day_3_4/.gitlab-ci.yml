@@ -1,13 +1,42 @@
-stages:
+stages: 
   - build
   - test
+  - deploy
 
-build:
+variables:
+  REPORT_FILE: "reports/system_report.txt"
+  AUTHOR: "drake21"
+
+build_job:
   stage: build
   script:
-    - echo "Build stage is running..."
+    - mkdir -p reports 
+    - touch "$REPORT_FILE"
+    - bash scripts/system_info.sh > $REPORT_FILE
+    - echo "Build stage completed by $AUTHOR"
+  artifacts:
+    paths:
+      - reports/
+    expire_in: 1 week
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+      when: always
+    - when: never
 
-test:
+test_job:
   stage: test
   script:
-    - echo "Test stage is running..."
+    - bash scripts/test_runner.sh $REPORT_FILE
+    - echo "Test stage passed by $AUTHOR"
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+      when: always
+    - when: never
+
+deploy_job:
+  stage: deploy
+  script:
+    - bash scripts/deploy_mock.sh
+    - echo "Deploy simulated sucessfully by $AUTHOR"
+  only:
+    - main

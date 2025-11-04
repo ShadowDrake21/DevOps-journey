@@ -7,3 +7,22 @@ First of all, I have been working on the next topics:
 Next I have written a short YAML snipper that runs two jobs in sequence (build -> test) and prints simple messages. I have also validated it with GitLab UI validator.
 
 Part 2 - Practice: Create & test a multi-job pipeline:
+I have created a 3-stage functional pipeline:
+- I added Bash scripts: scripts/system_info.sh → gathers system stats, scripts/test_runner.sh → simple test (check if output file exists), scripts/deploy_mock.sh → mock deploy (prints timestamp + message).
+- I created .gitlab-ci.yml;
+- I added an artifact to store the generated report;
+- I triggered a manual job (when: manual) for deploy.
+
+Additional sources:
+- https://www.geeksforgeeks.org/linux-unix/how-to-pass-and-parse-linux-bash-script-arguments-and-parameters/.
+
+Part 3 - Debugging, optimization and self-testing:
+First of all, I purposely broke my .gitlab-ci (missing indentation) and then locally tested it.
+Then I added rules: 
+rules:
+  - if: '$CI_COMMIT_BRANCH == "main"'
+    when: always
+  - when: never
+and a variable for my username.
+Then after the push to the remote repo I tested it all.
+
